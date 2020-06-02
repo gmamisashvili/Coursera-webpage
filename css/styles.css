@@ -88,6 +88,27 @@ body {
 }
 
 /* HOME PAGE */
+.xs-phone-div {
+  background-color: #f6b319;
+  color: #951c49;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.xs-phone-div span.glyphicon-earphone {
+  font-size: 1.2em;
+  color: #951c49;
+}
+
+.xs-phone-div span.glyphicon-earphone:before {
+  margin-right: 10px;
+}
+
+.xs-deliver {
+  margin-top: 10px;
+}
+
 .container .jumbotron {
   box-shadow: 0 0 50px #3f0c1f;
   border: 2px solid #3f0c1f;
@@ -208,6 +229,62 @@ body {
 }
 
 /* MENU CATEGORIES END */
+
+/* SINGLE CATEGORY PAGE  */
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+  width: 80%;
+}
+
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-right: -15px;
+  margin-bottom: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+  font-size: 0.6em;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #557c3e;
+  width: 80px;
+  text-align: center;
+}
+
+.menu-item-description {
+  padding-right: 30px;
+}
+
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+
+.menu-item-details {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/* SINGLE CATEGORY PAGE  */
 /* ******Large devices only****** */
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -293,6 +370,19 @@ body {
   }
   .panel-footer section hr {
     width: 50%;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .menu-item-description {
+    text-align: center;
   }
 }
 
